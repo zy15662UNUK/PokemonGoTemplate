@@ -1,0 +1,187 @@
+a:hover{
+  text-decoration: none;
+}
+.blue{
+  color: #1A296B
+}
+.show{
+  z-index: 1;
+}
+.navbar-nav li:active{
+  border: solid 1px white;
+}
+.navbar-nav li:last-of-type:active{
+  border: none;
+}
+h5{
+  color: grey;
+  text-align: center;
+}
+.dropdown-menu{
+  opacity: 0.8;
+}
+.shiftUp{
+  margin-top: -300px;
+}
+body{
+background-color: #eee;
+}
+.parallax-window{
+  left: 0px;
+  right: 0px;
+	height: 400px;
+	background: transparent;
+}
+.parallax .text{
+  text-align: center;
+  margin-top: 100px;
+  font-weight: bold;
+  color: #fafafa;
+}
+.parallax .text h1{
+    font-family: Circular,Verdana,sans-serif;
+    color: white;
+    font-size: 3em;
+}
+main{
+  margin-left: 20px;
+  margin-right: 20px;
+  min-height: 250vh;
+  margin-bottom: 20px;
+}
+.major{
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+  min-width: 100%;
+  min-height: 100vh;
+  font-family: Circular,Verdana,sans-serif;
+}
+.first{
+  height: 350px;
+}
+.first-right{
+  background-image: url("..\\img\\marketingfeaturezone-opendays.jpg");
+}
+.first-right .text{
+  border: solid 2px white;
+  color: white;
+  margin-left: 25%;
+  margin-top: 15%;
+  margin-bottom: 10px;
+  width: 50%;
+  text-align: center;
+  height: 200px;
+}
+.first-right .text a{
+  color: white;
+}
+.first-left{
+  text-align: center;
+  background-color: white;
+}
+.first-left .text h2{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.first-left .text input,.first-left .text select{
+  width: 50%;
+  margin: 20px auto;
+  height: 3em;
+  font-size: 1.1em;
+}
+.first-left .text .button{
+  width: 100%;
+  text-align: left;
+  margin: 20px 25%;
+}
+.first-left .text .button .btn{
+  font-size: 1.5em;
+}
+.second{
+  margin-top: 20px;
+}
+.second-col{
+  padding-left: 20px;
+  min-height: 100%;
+}
+.second a,.second-content{
+  background-color: white;
+}
+.second-left .img{
+  width: 104%;
+  margin-left: -2%;
+  height: 215px;
+  background: url("../img/jumbo.jpg") center center;
+  background-size:cover;
+}
+.second-middle .img{
+  width: 104%;
+  margin-left: -2%;
+  height: 215px;
+  background: url("../img/ui-jobs.jpg") center center;
+  background-size:cover;
+}
+.second-right .img{
+  width: 104%;
+  margin-left: -2%;
+  height: 215px;
+  background: url("../img/studentserviceswithhexagons-2.jpg") center center;
+  background-size:cover;
+}
+.second-content{
+  height: 450px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.second-content:hover{
+  transform: translateY(-10px);
+  height: calc(100%+30px);
+  z-index: 10;
+}
+.second-p{
+  color: grey;
+  margin-top: 50px;
+}
+.foot{
+  text-align: right;
+  padding: 30px;
+  background-color: white;
+}
+@media screen and (max-width: 992px){
+
+  main{
+    min-height: 400vh;
+  }
+  .major{
+    min-height: 100vh;
+    margin-top: 10px;
+  }
+  .first{
+    height: 150%;
+    margin-bottom: 50px;
+  }
+  .first-right,.first-left{
+    min-height: 100%;
+  }
+  .first-right .text{
+    margin-top: 30px;
+  }
+  .first-left .text .button,.first-left .text input,.first-left .text select{
+    margin: 8px 25%;
+  }
+  .first-left .text h1{
+    margin: 5px auto;
+    margin-bottom: 0;
+  }
+  .carousel{
+    display: none;
+  }
+  .parallax-window{
+    overflow: scroll;
+  }
+  .parallax-window::-webkit-scrollbar {
+    display: block;
+}
+}
